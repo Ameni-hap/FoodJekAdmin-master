@@ -1,0 +1,23 @@
+<div class="container">
+    <legend>Create Item</legend>
+    <form>
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="name" [(ngModel)] = "RestaurantForm.name" class="form-control" id="txtName" />
+      </div>
+      <div class="mb-3">
+        <label for="txtPrice" class="form-label">imageUrl</label>
+        <input type="text" name="price" [(ngModel)] = "RestaurantForm.imageUrl" class="form-control" id="txtPrice" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">adresse</label>
+        <input type="text" name="quantity" [(ngModel)] = "RestaurantForm.adresse" class="form-control" id="txtQuantity" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">phone</label>
+        <input type="text" name="quantity" [(ngModel)] = "RestaurantForm.phone" class="form-control" id="txtQuantity" />
+      </div>
+      <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+    </form>
+  </div>
+ 
